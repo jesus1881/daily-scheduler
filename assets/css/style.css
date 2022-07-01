@@ -69,3 +69,34 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.form-control{
+  color: black;
+}
+
+.future{
+  background-color: rgb(78, 78, 194);
+}
+
+.past {
+  background-color: rgb(246, 41, 41);
+}
+
+.present{
+  background-color: #35ee57;
+}
+
+.save-icon:hover{
+  background-color: rgb(117, 16, 233);
+  transform: scale(1.1);
+}
+
+.form-control:hover{
+  transform: scale(1.01);
+}
+
+.time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
